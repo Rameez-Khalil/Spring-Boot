@@ -1,0 +1,13 @@
+MAVEN STANDARD DIRECTORY:
+    1. src/main/java - Java source code.
+    2. src/main/resources - config files used by our app.
+    3. src/main/webapp - JSP files and web config files, static assets.
+    4. src/test - testing modules.
+    5. target - destination directory for compiled code.
+
+
+
+ADVANTAGES OF MAVEN:
+    1. No more build path issues.
+    2. Standard directory structure.
+    3.

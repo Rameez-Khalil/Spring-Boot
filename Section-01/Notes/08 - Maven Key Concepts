@@ -1,0 +1,21 @@
+POM FILE - Project Object Model; always be in the root of your project.
+    1. Project Meta Data (project name, versions).
+    2. Dependencies ( list of the projects we depend on).
+    3. Plug-ins (JUnit testing reports etc).
+
+
+
+PROJECT COORDINATES:
+    1. This helps us identifying the project.
+    2. Group ID - Name of company (reverse url).
+    3. Artifact ID - name of the project.
+    4. Version - Release version .
+
+
+ADDING DEPENDENCIES:
+    1. Once we have something to be added we will add a dependencies.
+    2. dependency will be acting as a parent to groupID, artifactID, and version (optional).
+    3. GAV - GroupID, ArtifactID, and Version.
+    4. search.maven a best website to get the GAV.
+
+

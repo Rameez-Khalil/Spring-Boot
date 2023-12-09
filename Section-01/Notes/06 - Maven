@@ -1,0 +1,26 @@
+MAVEN:
+    Maven is a project management tool.
+    It is used for build management and dependencies.
+    It will fetch the JAR files available for us.
+
+
+We will provide our list, maven will go out and fetch the listed dependencies
+from maven central repository.
+
+
+MAVEN WORKING:
+1. Read config file.
+2. Maven will check the local repo.
+3. If not found, then maven will go out and seek those dependencies
+in its central repo, fetching the dependencies and making those available for us.
+4. Pushing those JAR files into the local repo.
+5. Build and run.
+
+
+HANDLING JAR DEPENDENCIES:
+    1.  Maven will make sure the dev-dependencies are also being downloaded.
+    2.  Since spring depends on commons-loggings, maven will make sure to download this as well.
+
+BUILD AND RUN:
+    1. Maven will handle the build path.
+    2. Based on the POM (Project object model) maven will add JAR files accordingly.
