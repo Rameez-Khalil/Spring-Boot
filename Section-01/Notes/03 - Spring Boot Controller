@@ -1,0 +1,3 @@
+REST CONTROLLER:
+    1. Add annotation @RestController (should be added above the class).
+    2. Add annotation @GetMapping("/") above our function.

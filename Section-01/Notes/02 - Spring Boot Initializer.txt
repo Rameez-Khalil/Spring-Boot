@@ -1,0 +1,12 @@
+Spring initializer allows us to fetch the project based off of our needs, saving us time and allowing us to be more focused towards
+building an application.
+ 
+
+MAVEN: 
+	Since we need multiple dependencies when it comes to building a project.
+	Maven will go out and download the JAR files for those projects for you.
+	Maven wil make those JAR files available for us, during compile. 
+
+
+GROUP - > Package name.
+Artifact ID -> Project name. 

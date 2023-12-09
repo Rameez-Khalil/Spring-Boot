@@ -1,0 +1,37 @@
+GOALS OF SPRING:
+    1. Lightweight development using Java POJO.
+    2. Dependency injection to promote loose coupling.
+    3. Minimize boilerplate java code.
+
+
+
+
+CORE CONTAINER:
+    1. BEANS - Manages bean dependencies.
+    2. SpEL - Spring expression language.
+
+AOP: Aspect oriented programming.
+    1. AOP is about adding functionality to the objects declaratively.
+    2. Logging, Security, transactions etc.
+
+DATA ACCESS SECTION:
+    1. JDBC helper classes.
+    2. ORM
+    3. JMS Java message service (async messages to message broker).
+    4. Transactions - this makes use of AOP behind the scenes.
+
+Web Layer:
+    1. This contains servlets, websockets, and web.
+    2. Home of the spring MVC.
+
+
+Infrastructure:
+    1. This includes AOP, Aspects, Instrumentation, messaging.
+
+TEST:
+    1. Supports TDD
+    2. Mock objects and out of container testing.
+    3. Unit, integration, and mocking are available.
+
+
+

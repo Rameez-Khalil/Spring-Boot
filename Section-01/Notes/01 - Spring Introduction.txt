@@ -1,0 +1,32 @@
+A popular framework for building java applications.
+The problem with Spring are: 
+	1. Which JAR dependencies do I need?
+	2. How do I setup configuration?.
+
+Spring Boot: 
+	Makes it easier to stat with spring dev.
+	Minimize the amount of configuration.
+	Performs auto-config.
+	Provides an embedded HTTP server (Tomcat, Jetty, Undertow).
+
+Relationship B/W Spring and Spring Boot: 
+	1. Spring boot makes use of Spring BTS.
+	2. Spring boot makes it easier to work with Spring.
+	3. Spring Boot provides a spring initializer.
+
+SPRING BOOT EMBDEDDED SERVER: 
+	1. No need to install server.
+	2. If we are going to create a jar file for our application, then it will embedd
+	the server and the app files by default. 
+	3. There is no need to install server explicitly.
+
+
+DEPLOYING SPRING BOOT APP: 
+	1. Spring apps can be deployed using a WAR file.
+	2. This war file will include our code only.
+
+
+FAQ: 
+	1. Spring Boot uses Spring MVC, Spring REST in the background.
+	2. Spring Boot is mainy about configuration. 
+	3. 
