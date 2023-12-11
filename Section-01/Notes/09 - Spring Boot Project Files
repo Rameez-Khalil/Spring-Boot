@@ -1,0 +1,25 @@
+Spring Boot follows the maven directory sturcutre.
+    src\main\java - java code.
+    src\main\resources - config files used by our application.
+    src\test\java - unit testing source code.
+
+
+MAVEN WRAPPER FILES:
+mvnw and mvnw.cmd are maven wrapper files without installing maven.
+This automatically downloads the correct version.
+
+
+
+MAVEN POM FILE:
+    1. This is a collection of dependencies, however, when using Spring Boot
+    this takes care of the hustle.
+    	<dependency>
+    			<groupId>org.springframework.boot</groupId>
+    			<artifactId>spring-boot-starter-web</artifactId>
+    	</dependency>
+    2. This is a maven plugin so we can apply two commands in here.
+        mvnw package and mvnw spring-boot: run.
+        <plugin>
+        		<groupId>org.springframework.boot</groupId>
+        		<artifactId>spring-boot-maven-plugin</artifactId>
+        </plugin>

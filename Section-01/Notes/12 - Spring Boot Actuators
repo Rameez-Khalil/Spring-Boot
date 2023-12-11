@@ -1,0 +1,25 @@
+Exposes endpoints to monitor and manage your application.
+    <dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-actuator</artifactId>
+    </dependency>
+
+    1. /health - checks status of our application.
+    2. /info - to expose info we need to provide information in our application.properties
+    management.endpoints.web.exposure.include=  health, info
+    management.info.env.enabled = true
+
+    3. For adding information we can also add the information for our application.
+        info.app.name = My Application.
+        info.app.description = Best application.
+        info.app.version = 1.0.0
+        Anything starting with info will be used by info.
+
+    4.
+        /auditevents
+        /beans
+        /mapping.
+
+    5. We can also expose all endpoints.
+    management.endpoints.web.exposure.include=*
+

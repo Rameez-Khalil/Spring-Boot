@@ -1,0 +1,18 @@
+By default spring boot looks for files under application.properties
+    we can add server.port = 8585 and this will change the host# 8585.
+
+We can add many properties as we like.
+
+
+READING PROPERTIES:
+    1. We can read these properties through injection.
+    2. Inside Rest Controller
+
+        @Value ("${coach.name}")
+        private String name;
+
+STATIC PROPERTIES:
+    1. Static content - HTML files, JS files etc.
+
+TEST:
+    By-default test file is already there.

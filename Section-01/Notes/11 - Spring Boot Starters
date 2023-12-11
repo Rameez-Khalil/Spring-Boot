@@ -1,0 +1,28 @@
+SPRING BOOT STARTERS:
+    1. Collection of dependencies grouped together.
+    2. Reduces Maven configuration.
+
+
+SPRING INITIALIZER:
+    1. Select the dependency then you should be good to go.
+    2. We can add as many dependencies as we want.
+    3. There have been more than 30+ spring boot starters.
+
+STARTER PARENT:
+    1. Spring boot provides a starter parent.
+    2. This provides Maven defaults.
+    3. Default compiler level, and UTF-8 source encoding.
+    4.
+        <parent>
+        	<groupId>org.springframework.boot</groupId>
+        	<artifactId>spring-boot-starter-parent</artifactId>
+        	<version>3.2.0</version>
+        	<relativePath/> <!-- lookup parent from repository -->
+        </parent>
+
+SPRING BOOT DEV TOOLS:
+    1. changing the source code forces us to re-run our application.
+    2.  <dependency>
+        <groupId>org.springframework.boot<groupId>
+        <artifactId>spring-boot-devtools<artifactId>
+        </dependency>
