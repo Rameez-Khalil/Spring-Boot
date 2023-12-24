@@ -28,5 +28,4 @@ DEPLOYING SPRING BOOT APP:
 
 FAQ: 
 	1. Spring Boot uses Spring MVC, Spring REST in the background.
-	2. Spring Boot is mainy about configuration. 
-	3. 
+	2. Spring Boot is mainly about configuration.

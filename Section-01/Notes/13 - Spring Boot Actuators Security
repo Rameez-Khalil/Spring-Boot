@@ -1,0 +1,18 @@
+We may not want to expose all the information.
+Adding Spring Security to project and endpoints are secured.
+
+
+We need to add this dependency to the POM file.
+<dependency>
+    <groupId> org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-security</artifactId>
+</dependency>
+
+
+We can add these props into our application.properties file.
+spring.security.user.name = rameez
+spring.security.user.password = khalil
+
+
+EXCLUDE ENDPOINTS.
+management.endpoints.web.exposure.exclude = health etc.

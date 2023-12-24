@@ -13,7 +13,7 @@ public class FunRestController {
 
     @GetMapping("/") //exposing route "/"
     public String hello() {
-        return "Hello  " + name + " , you are the besta";
+        return "Hello  " + name + " , you are the best";
     }
 
     @GetMapping("/hellotest")
