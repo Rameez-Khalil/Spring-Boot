@@ -1,0 +1,33 @@
+Dependency Injection:
+    Works on the basis of dependency inversion principle,
+    the client delegates to another object the responsibility of providing
+    its dependencies.
+
+
+
+    Constructor Injection:
+        1. When you have required dependencies.
+
+    Setter Injection:
+        1. When you have optional dependencies.
+        2. If there is no such dependency, then the app can provide
+        reasonable default logic.
+
+
+SPRING AUTO-WIRING:
+    Spring will look for class that matches.
+
+
+
+Define dependency interface and class.
+Create rest controller.
+Create constructor in your class for injections.
+Add @GetMapping for /dailyworkouts.
+
+
+
+@Component -
+    This makes this component a spring bean and makes it available for
+    dependency injection .
+
+

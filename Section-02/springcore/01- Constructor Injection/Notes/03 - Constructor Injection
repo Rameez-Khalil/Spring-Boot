@@ -1,0 +1,14 @@
+In our case we first created our Interface to define the methods to be override.
+We then created our cricketcoach class to implement the interface's methods.
+We then initialized our RestController(DemoController) and in there,
+we made use of auto-wiring through constructor and we delegated that task to the Coach.
+
+
+SPRING BTS:
+    Spring will create the objects for Coach.
+    Spring will initializes the objects.
+
+    Coach theCoach = new CricketCoach();
+    DemoController demoController = new DemoController(theCoach);
+
+    
