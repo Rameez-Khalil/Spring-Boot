@@ -1,0 +1,13 @@
+IOC:
+    Approach of outsourcing the construction and management of the objects.
+    We will pass the object to the object factory, and based off of the
+    configuration under object factory this will provide an object.
+    Here, object factory is SPRING CONTAINER.
+
+
+SPRING FACTORY:
+    Create and manage the objects.
+    Inject object dependencies.
+
+    Annotations and Source code can be used to configure Spring Container.
+    
